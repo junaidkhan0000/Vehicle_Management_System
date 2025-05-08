@@ -1,0 +1,93 @@
+.lorry__item {
+  border: 1px solid #7c8a9736;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.lorry__item-info span i {
+  color: #f9a826;
+  font-size: 1.1rem;
+}
+
+.lorry__item-btn {
+  border-radius: 0;
+  border: none;
+  outline: none;
+  background: #000d6b;
+  padding: 8px 0px;
+}
+
+.lorry__item-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.lorry__item-btn a:hover {
+  color: #fff;
+}
+.lorry__btn-details {
+  background: #f9a826;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.lorry__btn-rent {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.lorry__item-content h4 {
+  font-size: 1.8rem;
+}
+
+.lorry__item-content h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 992px) {
+  .lorry__item h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+
+  .lorry__item h6 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .lorry__item-info {
+    flex-wrap: wrap;
+  }
+
+  .lorry__item-info span {
+    font-size: 0.8rem;
+    justify-content: space-between;
+  }
+
+  .lorry__item-btn {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .lorry__item h4 {
+    font-size: 1rem;
+  }
+
+  .lorry__item h6 {
+    font-size: 0.9rem;
+  }
+
+  .lorry__item-info span {
+    font-size: 0.7rem;
+  }
+
+  .lorry__item-info span i {
+    font-size: 0.9rem;
+  }
+
+  .lorry__item-btn {
+    font-size: 0.8rem;
+  }
+}
